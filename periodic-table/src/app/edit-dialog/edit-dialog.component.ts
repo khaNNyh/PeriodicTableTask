@@ -1,5 +1,9 @@
 import { Component, Inject } from '@angular/core';
-import { MatDialogRef, MAT_DIALOG_DATA, MatDialogModule } from '@angular/material/dialog';
+import {
+  MatDialogRef,
+  MAT_DIALOG_DATA,
+  MatDialogModule,
+} from '@angular/material/dialog';
 import { PeriodicElement } from '../periodic-table/periodic-table.component';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
@@ -19,10 +23,10 @@ import { CommonModule } from '@angular/common';
     MatButtonModule,
     MatFormFieldModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
   ],
   templateUrl: './edit-dialog.component.html',
-  styleUrl: './edit-dialog.component.scss'
+  styleUrl: './edit-dialog.component.scss',
 })
 export class EditDialogComponent {
   constructor(
