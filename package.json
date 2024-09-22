@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@rx-angular/state": "^18.0.0",
+    "@rx-angular/template": "^18.0.2"
+  }
+}
